@@ -34,4 +34,9 @@ header img{
 	border-radius: 50%;
 }
 
-/* MAIN */
+/* Seccion  deracha */
+.seccion_derecha{
+	background-color: #EDEDED;
+	border-radius: 5px;
+	padding: 10px;
+}
