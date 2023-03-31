@@ -1,152 +1,216 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-	<title></title>
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" type="text/css" href="css/style_cv.css">
-	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estilo_cv.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css">
+    <title>Mi CV</title>
 </head>
 <body>
+  <main class="container bg-white">
+    <header>
+      <div class="row">
+        <div class="col-md-2"></div>
+        <div class="col-md-4 text-center">
+          <br><br>
+          <h1>ANTHONY SCOTT RAMIREZ SIAS </h1>
+          <hr class="text-warning">
+          <h4 class="text-white">Desarrollador de Software</h4>
+        </div>
+        <div class="col-md-2"></div>
+        <div class="col-md-4 text-center">
+          <img src="img/MiFoto.png">
+        </div>
+        
+      </div>
+    </div>
+    </header>
+    <br>
+    <!-- SECCION IZQUIERDA -->
+    <div class="row">
+      <div class="col-md-4">
 
-<div class="main">
-	<div class="left">
-		<br>
-		<div class="profile-img"><img src="img/MiFoto.png"></div>
+        <div class="contacto mb-3">
+          <div>
+            <h4>CONTACTO</h4>
+          </div>
+          <div class="w-50">
+            <hr>
+          </div>
+            <div class="contacto_logo">
+              <div class="accordion" id="accordionExample">
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                      <img src="img/iconos/telefono.svg" alt=""> <span>TELEFONO</span>
+                    </button>
+                  </h2>
+                  <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                      <span>+51 914-976-865</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                      <img src="img/iconos/correo.svg" alt=""> <span>CORREO</span>
+                    </button>
+                  </h2>
+                  <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                      <span>anthonyscottramirez@gmail.com</span>
+                    </div>
+                  </div>
+                </div>           
+              </div>
+            </div>
+        </div>
 
-		<div class="box-1">
-			<div class="heading">
-				<p>CONTACTO</p>
-			</div>
-			<p class="p1"><img src="img/iconos/telefono.svg" alt="">+51 914976865</p>
-			<p class="p1"><img src="img/iconos/correo.svg" alt="">anthonyscottramirez@gmail.com</p>
-		</div>
+        <div class="habilidades">
+          <div class="habilidades">
+              <div>
+                <h4>HABILIDADES</h4>
+              </div>
+              <div class="w-50">
+                <hr>
+              </div>
+              <div>
+                <h5>HTML</h5>
+                <div class="progress mb-3" role="progressbar" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+                  <div class="progress-bar bg-primary" style="width: 65%">65%</div>
+                </div>
 
-		<div class="box-1">
-			<div class="heading">
-				<p>LANGUAGES</p>
-			</div>
+                <h5>CSS</h5>
+                <div class="progress mb-3" role="progressbar" aria-label="Info example" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">
+                  <div class="progress-bar bg-primary"  style="width: 57%">57%</div>
+                </div>
 
-			<p class="p1">HTML
-			<div class="skill-container">
-				<div class="skill html"></div>
-			</div>
-			</p>
+                <h5>JAVASCRIPT</h5>
+                <div class="progress mb-3" role="progressbar" aria-label="Warning example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+                  <div class="progress-bar bg-primary"  style="width: 32%">32%</div>
+                </div>
 
-			<p class="p1">CSS
-			<div class="skill-container">
-				<div class="skill css"></div>
-			</div>
-			</p>
+                <h5>PHP</h5>
+                <div class="progress mb-3 " role="progressbar" aria-label="Danger example" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
+                  <div class="progress-bar bg-primary"  style="width: 45%">45%</div>
+                </div>
 
-			<p class="p1">JAVASCRIPT
-			<div class="skill-container">
-				<div class="skill js"></div>
-			</div>
-			</p>
+                <h5>JAVA</h5>
+                <div class="progress mb-3" role="progressbar" aria-label="Danger example" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
+                  <div class="progress-bar bg-primary"  style="width: 35%">35%</div>
+                </div>
 
-			<p class="p1">JQUERY
-			<div class="skill-container">
-				<div class="skill jquery"></div>
-			</div>
-			</p>
-		</div>
-		<br>
+                <h5>PYTHON</h5>
+                <div class="progress mb-3" role="progressbar" aria-label="Danger example" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
+                  <div class="progress-bar bg-primary"  style="width: 25%">25%</div>
+                </div>
 
-		<div class="box-1">
-			<div class="heading">
-				<p>HABILIDADES</p>
-			</div>
+                <h5>MYSQL</h5>
+                <div class="progress mb-3" role="progressbar" aria-label="Danger example" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
+                  <div class="progress-bar bg-primary"  style="width: 45%">45%</div>
+                </div>
 
-			<p class="p1">Diseño de páginas web
-			<div class="skill-container">
-				<div class="skill web"></div>
-			</div>
-			</p>
+                <h5>SQLSERVER</h5>
+                <div class="progress mb-4" role="progressbar" aria-label="Danger example" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
+                  <div class="progress-bar bg-primary"  style="width: 25%">25%</div>
+                </div>
 
-			<p class="p1">GRAPHIC DESIGN
-			<div class="skill-container">
-				<div class="skill gra"></div>
-			</div>
-			</p>
+              </div>
+          </div>
+        </div>
 
-			
-		</div>
-		<br>
-		<div class="box-1">
-			<div class="heading">
-				<p>HOBBIES</p>
-			</div>
+        <div class="idioma">
+          <div>
+            <h4>IDIOMAS</h4>
+          </div>
+          <div class="w-50">
+            <hr>
+          </div>
+          <ul>
+            <li><h6>Español:    Nativo</h6></li>
+            <li><h6>Inglés:     Básico</h6></li>
+          </ul>
+        </div>
 
-			<div class="h-div">
-				<i class="material-icons icons2">camera_roll</i>
-				<i class="material-icons icons2">music_note</i>
-				<i class="material-icons icons2">motorcycle</i>
-				<i class="material-icons icons2">border_color</i>
-			</div>
-			
-		</div>
+      </div>
 
-	</div>
+      <!-- SECCION DERECHA -->
+      <div class="col-md-8 seccion_derecha">
 
+        <!-- ACERCA DE MI -->
+        <div class="mb-5">
+              <div class="acerca_de_mi">
+                  <div>
+                    <h4>ACERCA DE MI</h4>
+                  </div>
+                  <div class="linea w-25">
+                    <hr>
+                  </div>
+                  <div><p>Soy un estudiante del 4 semestre de la carrera de "INGENIERIA DE SOFTWARE CON INTELIGENCIA ARTIFICIAL" con conocimientos intermedios en los lenguajes de programación como Java, Python, Php y JavaScript. Me apasiona el desarrollo de software y siempre estoy buscando nuevas formas de mejorar mis habilidades y conocimientos en esta área. Soy un solucionador de problemas creativo y estoy comprometido a escribir código de alta calidad que sea fácil de mantener y escalable. También tengo habilidades en el diseño y desarrollo de bases de datos, y estoy familiarizado con herramientas como MySQL y SQLServer</p></div>
+              </div>
+        </div>
 
-	<div class="right">
-		<div class="name-div">
-			<h1>Anthony Scott Ramirez Sias</h1>
-			<p>Desarrollador Web</p>
-		</div>
+        <!-- FORMACION -->
 
-		<div class="box-2">
-			<h2>ACERCA DE MI <i class="material-icons icons3" style="font-size: 28px!important; ">perm_identity</i></h2>
-			<p class="p2">
-				Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,<br> when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries,
-			</p>
-		</div>
+          <div class="mb-5">
+              <div>
+                <h4>EDUCACION</h4>
+              </div>
+              <div class="linea w-25">
+                <hr>
+              </div>
+              <div>
+                <ul>
+                  <li><h5>Inicial: Concluido  </h5></li>
+                  <li><h5>Primaria: Concluido</h5></li>
+                  <li><h5>Secundaria: Concluido</h5></li>
+                  <li><h5>Superior: Cursando</h5></li>
+                </ul>
+              </div>
+          </div>
 
+          <!-- Habilidades tecnicas -->
+          <div class="mb-5">
+            <div>
+              <h4>HABILIDADES TECNICAS</h4>
+            </div>
+            <div class="linea w-25">
+              <hr>
+            </div>
+            <div>
+              <ul>
+                <li><h5>Lenguaje de programacion: Java, Python, Php, Javascript,  </h5></li>
+                <li><h5>Herrameinta de desarrollo: Netbeans. visual code, git, gira</h5></li>
+                <li><h5>Gestion de base de datos: MySql, SQLServer</h5></li>
+                <li><h5>Framworks: Flask, Djando, ReactNative</h5></li>
+              </ul>
+            </div>
+          </div>
 
+        <!-- CERTIFICADOS -->
+        <div class="certificado ">
+          <div>
+            <h4>CERTIFICACION</h4>
+          </div>
+          <div class="linea w-25">
+            <hr>
+          </div>
+          <div>
+            <ul>
+              <li><h5><a target="_blank" href="https://drive.google.com/file/d/1UM-7TQ8idvlc7zoFAQKpB3_iMfvPYKLU/view?usp=share_link">Introduccion a la ciberseguridad</a></h5></li>
+              <li><h5><a target="_blank" href="https://drive.google.com/file/d/12CK8Zz5y7uemvMbdrowOvV12OxavSzDN/view?usp=share_link">Introduction to IoT</a></h5></li>
+              <li><h5><a target="_blank" href="https://drive.google.com/file/d/1BqZZOOfHJ05Ta8zebTATySy6yWS6qBB5/view?usp=share_link">Netwoking Essentials</a></h5></li>
+            </ul>
+          </div>
+        </div>
+          
+      </div>
+    </div>
 
-		<div class="box-2">
-			<h2>EDUCACION<i class="material-icons icons3" >border_color</i></h2>
-			<p class="p3">2010-2013 <span>Lorem Ipsum is simply dummy</span></p>
-			<p class="p2">
-				Lorem Ipsum is simply dummy text of 
-			</p>
-
-			<p class="p3">2013-2016 <span>Lorem Ipsum </span></p>
-			<p class="p2">
-				Lorem Ipsum is simply dummy text of 
-			</p>
-
-			<p class="p3">2016-2021 <span>Lorem Ipsum is</span></p>
-			<p class="p2">
-				Lorem Ipsum is simply dummy text of 
-			</p>
-		</div>
-
-
-		<div class="box-2">
-			<h2>EXPERIENCIA LABORAL<i class="material-icons icons3" >folder</i></h2>
-			<p class="p3">2010-2013 <span>Lorem Ipsum is simply dummy</span></p>
-			<p class="p2">
-				Lorem Ipsum is simply dummy text of 
-			</p>
-
-			<p class="p3">2013-2016 <span>Lorem Ipsum </span></p>
-			<p class="p2">
-				Lorem Ipsum is simply dummy text of 
-			</p>
-
-			
-		</div>
-
-	</div>
-</div>
-<div>
-
-</div>
-
-
-
-
+  </main>
+    <script src="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
