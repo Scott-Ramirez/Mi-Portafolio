@@ -107,6 +107,7 @@ proyectos.forEach((proyecto) => {
   nuevoProyecto.innerHTML = getProyecto(proyecto);
   proyectosContainer.appendChild(nuevoProyecto);
 });
+
 makePresentacion();
 makeIdiomas();
 makeTecnologias();
