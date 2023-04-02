@@ -8,6 +8,23 @@
     --color-fondo-tarjeta: #ffffff27;
   }
   
+ /* EFECTO H1 TITULO */
+ h1 span {
+  display: inline;
+  animation: digitado 1s steps(60, end);
+  font-family: 'Carter One', cursive;
+}
+
+@keyframes digitado {
+  from {
+    width: 0;
+  }
+  to {
+    width: auto;
+  }
+}
+
+
   body{
     background-image: url("../img/FONDO BODY.jpg");
     margin: 0;
@@ -26,7 +43,6 @@
   
   h1{
     font-size: xxx-large;
-    font-family: 'Carter One', cursive;
   }
   
   p, span, h3{
