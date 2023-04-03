@@ -2,11 +2,20 @@ const proyectos = [
     {
       titulo: "SISTEMA DE VENTA DE PASAJES",
       descripcion:
-        "Para las empresas de transportes de pasajeros via terrestre y fluvial",
+        "Este proyecto aún está en proceso",
       link: "https://practicascott2023.000webhostapp.com/",
       fecha: "13/03/2023",
       imagen: "proyecto1.png",
       tecnologias: ["HTML","-", "CSS","-","MySQL","-","JAVASCRIPT","-","BOOTSTRAP","-","SWEETALERT","-","DOMPDF","-","AJAX","-","PHP"],
+    },
+    {
+      titulo: "CHATBOT DESDE CERO",
+      descripcion:
+        "Este proyecto aún está en proceso",
+      link: "#",
+      fecha: "24/03/2023",
+      imagen: "chatbot.png",
+      tecnologias: ["PYTHON","-", "TENSORFLOW","-","NUMPY","-","JSON","-","NLTJ","-","PICKLE","-"],
     },
   ];
   
@@ -25,8 +34,8 @@ const proyectos = [
       ["Español", "Nativo"],["Inglés", "Básico"],
     ],
     tecnologias: [
-      ["Html", 5],["Css", 5],["Javascript", 3],["Php", 6],["MySql", 5
-      ],["Bootstrap",5],["Java",3],["Python",3],["SQLServer",3]
+      ["Html", 6],["Css", 6],["Javascript", 4],["Php", 6],["MySql", 6
+      ],["Bootstrap",5],["Java",3],["Python",3],["SQLServer",4]
     ],
     redes: [
       ["github", "https://github.com/Scott-Ramirez"],
