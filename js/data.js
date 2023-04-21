@@ -21,7 +21,7 @@ const proyectos = [
   
   const informacionPersonal = {
     nombre: "Anthony Scott",
-    subtitulo: "Desarrollador web",
+    subtitulo: "Desarrollador de Software",
     imagen: "img/MiFoto.png",
     otros: [
       ["Nacionalidad", "Peruano"],
@@ -34,7 +34,7 @@ const proyectos = [
       ["Español", "Nativo"],["Inglés", "Básico"],
     ],
     tecnologias: [
-      ["Html", 6],["Css", 6],["Javascript", 4],["Php", 6],["MySql", 6
+      ["Html", 6],["Css", 6],["Sass",2],["Javascript", 4],["React js", 3],["Node js",3],["C#",2],["Php", 6],["MySql", 6
       ],["Bootstrap",5],["Java",3],["Python",3],["SQLServer",4]
     ],
     redes: [
